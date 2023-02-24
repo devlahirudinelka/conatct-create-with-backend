@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+// routes
 router.route("/").get((req, res) => {
     res.status(200).json(
         { massage: "Get All Contacts" }
