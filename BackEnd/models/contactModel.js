@@ -14,7 +14,7 @@ const contactSchema = mongoose.Schema(
             type: String,
             required: [true, "Please add the Contact Phone Number"],
         },
-        phone: {
+        gender: {
             type: String,
             required: [true, "Please add the Contact Gender"],
         },
